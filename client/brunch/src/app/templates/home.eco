@@ -1,0 +1,8 @@
+<!-- START you can remove this -->
+<% $("button").button() %>
+
+<h1>Wow Events</h1>
+  
+<button class="ui-state-default ui-corner-all" id="create_event">Create event</button>
+
+<!-- END you can remove this -->

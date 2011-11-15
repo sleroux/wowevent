@@ -1,0 +1,18 @@
+<!-- START you can remove this -->
+<div class="event">
+    <h3> <%= @event.title %> </h3>
+    <p>
+        Created by: <%= @event.created_by %> </br>
+        Event type: <%= @eventutils.event_types[@event.event_type] %> </br>
+        Starts @ <%= @dateutils.parseDate(@event.start_date, @event.start_hour, @event.start_minute, @event.start_ampm) %> </br>
+        Ends @ <%= @dateutils.parseDate(@event.end_date, @event.end_hour, @event.end_minute, @event.end_ampm) %> </br></br>
+        
+        <%= @event.description %> </br></br>
+        # signed up: <%= @event.signups.length %></br>
+        <button class="ui-state-default ui-corner-all" id="view_info">View Info</button>
+        <button class="ui-state-default ui-corner-all" id="sign_up">Sign Me Up!</button>
+    </p>
+</div>
+
+
+<!-- END you can remove this -->

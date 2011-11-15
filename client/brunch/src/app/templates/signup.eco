@@ -1,0 +1,3 @@
+Character Name: <input type="text" id="character_name" />
+<button class="ui-state-default ui-corner-all" id="get_character">Get Character</button>
+

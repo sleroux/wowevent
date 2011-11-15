@@ -1,0 +1,3 @@
+Name: <%= @character.name %>
+Server: <%= @character.locale %> : <%= @character.server %>
+<img id="character_thumbnail" />

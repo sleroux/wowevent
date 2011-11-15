@@ -1,0 +1,75 @@
+Title: <input type="text" id="title" /></br>
+
+Created by: <input type="text" id="created_by" /></br>
+
+Type of event:  <select id="event_type">
+                    <option value="1">PvE</option>
+                    <option value="2">PvP</option>
+                    <option value="2">Misc</option>
+                </select>
+                </br>
+        
+        
+Starts at: <input type="text" id="start_datepicker" />
+      <select id="start_hour">
+        <option value="1">1</option>=
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+      </select>      
+      :  
+      <select id="start_minute">
+        <option value="1">00</option>
+        <option value="2">15</option>
+        <option value="3">30</option>
+        <option value="4">45</option>
+      </select>
+      
+      <select id="start_ampm">
+        <option value="1">AM</option>
+        <option value="2">PM</option>
+      </select>
+      
+      </br>
+    
+
+Ends at: <input type="text" id="end_datepicker" />
+    <select id="end_hour">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+    </select>      
+    :  
+    <select id="end_minute">
+      <option value="1">00</option>
+      <option value="2">15</option>
+      <option value="3">30</option>
+      <option value="4">45</option>
+    </select>
+
+    <select id="end_ampm">
+      <option value="1">AM</option>
+      <option value="2">PM</option>
+    </select>
+
+    </br>
+          
+Description: </br>
+<textarea rows="10" cols="70" id="description" /></br>
